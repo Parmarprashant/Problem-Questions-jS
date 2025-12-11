@@ -1,5 +1,5 @@
-let num = 145;
-let main = num;  
+let num = 11;
+let check = num;  
 let rev = 0;
 
 while (num > 0) {
@@ -8,7 +8,7 @@ while (num > 0) {
     num = Math.floor(num / 10);
 }
 
-if (rev == main) {
+if (rev == check) {
     console.log("Palindrome");
     console.log(rev);
 } else {

@@ -7,6 +7,5 @@ function fibo(n){
         a=b;
         b=c;
     }
-
 }
 fibo(10);
