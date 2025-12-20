@@ -4,8 +4,7 @@ function check(str){
         return false;
     }
 }
-return true;
-    
+return true;  
 }
 
 const ans = check("hello2");
