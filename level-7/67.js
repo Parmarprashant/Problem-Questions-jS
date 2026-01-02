@@ -6,7 +6,7 @@ for (let i = 0; i < arr.length; i++) {
     let add = arr[i];
 
     if (obj[add]) {
-        obj[add];   
+        obj[add]++;   
     } else {
         obj[add] = 1;              
     }
